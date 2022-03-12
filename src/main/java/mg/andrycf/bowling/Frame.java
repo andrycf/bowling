@@ -26,4 +26,8 @@ public class Frame {
     int getNbPinsDownAtFirstRoll() {
         return nbPinsDownAtFirstRoll;
     }
+
+    public int getNbPinsDownAtSecondRoll() {
+        return nbPinsDownAtSecondRoll;
+    }
 }

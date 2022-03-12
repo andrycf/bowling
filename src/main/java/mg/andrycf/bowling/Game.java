@@ -13,6 +13,10 @@ public class Game {
         frames.add(frame);
     }
 
+    public List<Frame> getFrames() {
+        return frames;
+    }
+
     int getScore() {
         return IntStream
                 .range(0, FRAME_NB)
